@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100vw;height: 100vh;
+    color: white;
+}
+h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 12vw;
+    font-family: 'Monoton', cursive;
+    cursor: none;
+}
+
+#cover:hover {
+    animation: briten 5s linear 0s infinite alternate;
+}
+ @keyframes briten {
+     0% {
+        background-color: rgba(0, 0, 0, 0.8);
+     }
+     100%{
+        background-color: rgba(0, 0, 0, 0.2);
+     }
+ }
