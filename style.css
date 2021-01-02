@@ -24,6 +24,7 @@ h1 {
     font-size: 12vw;
     font-family: 'Monoton', cursive;
     cursor: none;
+    line-height: 10rem;
 }
 
 #cover:hover {
